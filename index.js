@@ -10,7 +10,7 @@ const mongoose = require('./src/services/dbConection');
 const app = express();
 const server = http.createServer(app); 
 const corsOptions = {
-    origin: 'https://royofrontend-production.up.railway.app',
+    origin: 'https://www.royopack.com',
     methods: [ 'GET', 'POST' ],
     allowedHeaders: ['Content-Type', 'x-requested-with'],
     credentials: true,
